@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿static void Main(string[] args)
+{
+    var music = new MusicHandler.Music();
+    music.Name = "Ripple";
+    music.Artist = "Grateful Dead";
+    music.ReleaseDate = new DateTime(11, 1, 1970);
+}
